@@ -26,7 +26,9 @@ class LandingPage():
         
         if imagen != "":
             #resultado = GaussFilterGPU.GaussFilterGPU.predict(imagen, mascara, desviacion)
-            bloques, hilos, tiempoFinal, kernel, sigma  = GaussFilterCPU.predict(imagen, int(mascara), int(desviacion))
+            #bloques, hilos, tiempoFinal, kernel, sigma  = GaussFilterCPU.predict(imagen, int(mascara), int(desviacion))
+            bloques, hilos, tiempoFinal, kernel, sigma  = GaussFilterGPU.predict(imagen, int(mascara), int(desviacion))
+            
         else: 
             resultado = "Selecciona la imagen"
         
@@ -34,4 +36,5 @@ class LandingPage():
                                             "hilos": hilos,
                                             "tiempoFinal": tiempoFinal, 
                                             "kernel": kernel, 
-                                            "sigma": sigma})
+                                            "sigma": sigma,
+                                            "path": "/static/images/resultado.png"})

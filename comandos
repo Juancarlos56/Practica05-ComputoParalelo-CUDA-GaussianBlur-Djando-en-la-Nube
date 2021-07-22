@@ -1,0 +1,7 @@
+Crear docker = sudo docker build --tag practica5barrerajk --network host /home/usuario/Documentos/BarreraJBarreraK-Django/Practica05-ComputoParalelo-CUDA-GaussianBlur-Djando-en-la-Nube-main/Practica03-ComputoParalelo-CUDA-en-la-Nube/src/
+Correr docker = sudo docker run --gpus all -p 8000:8000 practica5barrerajk
+Listar docker ejecutandose = sudo docker ps
+Parar docker = sudo docker stop "identificador proceso"
+
+
+ruta server: http://127.0.0.1:8000/

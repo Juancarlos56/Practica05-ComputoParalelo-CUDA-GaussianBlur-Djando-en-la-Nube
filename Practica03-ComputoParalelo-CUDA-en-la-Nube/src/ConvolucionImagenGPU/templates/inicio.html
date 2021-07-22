@@ -136,7 +136,8 @@ que aparecerá en la página web-->
             </div>
 
             <div class="container6">
-                <img  src="/static/images/resultado.png"  alt="" style="width: 250px;">
+                {% csrf_token %}
+                <img  src="{{path}}"  alt="" style="width: 250px;">
             </div>
         </div>
         
