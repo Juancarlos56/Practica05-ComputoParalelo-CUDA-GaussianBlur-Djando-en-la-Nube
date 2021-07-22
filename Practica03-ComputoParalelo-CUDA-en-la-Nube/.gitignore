@@ -1,0 +1,5 @@
+# created by virtualenv automatically
+# Python pycache:
+__pycache__/
+# Ignored by the build system
+/setup.cfg

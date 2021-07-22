@@ -1,0 +1,477 @@
+.seccion1 .EncabezadoBI {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    background-color: #E6E1DA;
+
+}
+
+.seccion1 .EncabezadoBIPeq {
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    background-color: #E6E1DA;
+
+}
+
+.seccion1 .EncabezadoBI header h1 {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 100px;
+    font-family: 'Quattrocento', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.seccion1 .EncabezadoBIPeq header h1 {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-family: 'Quattrocento', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.seccion5 .EncabezadoBI header h1 {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 100px;
+    font-family: 'Quattrocento', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna1 .Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.unionCol .novedades .Subtitulos { 
+    background-color: black;
+    color: white;
+
+}
+
+.columna1 .Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna1 .titulopublicacion {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 35px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.seccion5.Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
+.Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna1 .SubSubtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna2 .Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna3 .Subtitulos {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna2 .titulosNoticias {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna2 .titulosNoticias h2 {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 32.5px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna1 .titulosNoticias h2 {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 35px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna1 .titulosNoticias {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
+.columna1 .estructuraParrafoCol1 {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    line-height: 28px;
+}
+
+.columna1 .estructuraParrafoCol1ConBordes {
+    width: 100%;
+    float: left;
+    margin-top: 30px; 
+    line-height: 30px;
+    padding: 2px;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    line-height: 25px;
+}
+
+
+.columna2 .estructuraTextoCol2 {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    line-height: 25px;
+}
+
+.columna3 .estructuraParrafoCol1 {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    line-height: 25px;
+}
+
+.fondoY {
+    width: 100%;
+    height: 730px;
+    background-color: gray;
+    text-align: center;
+    float: left;
+    background-position: center;
+    position: relative;   
+}
+
+
+.columna2 .estructuraParrafoCol1 {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    line-height: 25px;
+}
+
+
+.columna2  .estiloVideos {
+    width: 90%;
+    height: 90%;
+}
+
+.columna2  .estiloVideos .videoYoutube {
+    width: 100%; 
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+
+
+.seccion5 header h1{
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seccion5 .novedades {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: yellow;
+    font-size: 24px;
+    font-family: 'Aleo', serif;
+    line-height: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.seccion5 .novedades .container3 {
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    background-color: yellow;;
+}
+
+.seccion5 .novedades .container3 .tablaNovedades {
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+    color: #ffffffec;
+}
+
+
+.seccion5 .novedades .container3 .tablaNovedades .container4 {
+    width: 350px;
+    background-color: green;
+
+}
+
+
+.seccion5 .novedades .container3 .tablaNovedades .audioConfig {
+    width: 250px;
+    background-color: black;
+}
+
+
+.tabla{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: 30px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+
+.tabla .titulosTabla {
+    font-size: 30px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+ }
+.tablaTitulo {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #E6E1DA;
+    color: black;
+    text-transform: uppercase;
+}
+
+.formulario{
+    width:100%;
+    height: 600px;
+    margin-top: 50px;
+}

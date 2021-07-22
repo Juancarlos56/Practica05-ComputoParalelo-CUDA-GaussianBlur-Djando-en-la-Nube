@@ -1,0 +1,13 @@
+pillow
+Django
+djangorestframework
+drf-yasg
+numpy
+pandas
+scikit-learn
+gunicorn
+pillow
+polls
+markdown
+django-filter
+pyrebase4

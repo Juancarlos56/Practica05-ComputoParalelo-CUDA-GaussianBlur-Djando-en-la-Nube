@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--head es utilizado para marcar información sobre el documento-->
+<head>
+    <!--  
+        Information about Indie Rock page
+        Author: Juan Carlos Barrera Barrera  
+        Date:  20/07/2021 
+        Filename: inicio.html 
+    -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convolucion de Imagenes con CUDA</title>
+    <!--metadatos para la pagina Indie Rock-->
+    <meta name="keywords" content="cuda, gpu, procesamiento, imagenes" />
+    <link rel="stylesheet" href="/static/css/pageHome.css">
+    <link rel="stylesheet" href="/static/css/estilos.css" type="text/css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<!--etiqueta body se utiliza para marcar el contenido
+que aparecerá en la página web-->
+<body>
+    <!--Esta es la cabecera de una página. Aqui se debe de colocar el logo de la Pagina, 
+        nombre o imagen de la Pagina. Puedes definir cabeceras tanto a nivel de página 
+        como de una zona determinada-->
+    <header>
+        
+    </header>
+
+    <!--Esta es la barra de navegación principal del sitio. Sirve para definir 
+        una zona de navegación con vínculos entre las diferentes páginas.-->
+    <div id="menu"> 
+        <nav>
+            <ol>       
+            </ol> 
+        </nav>
+    </div>  
+
+    <div class="separador"></div>
+
+    <section class="seccion2">
+        <header>
+            <h1>Imagenes para procesar</h1>
+        </header>
+        <div class="novedades">
+            <div class="container3">
+                
+                <table class="tablaNovedades" style="margin: 0 auto;" >
+                   
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img class="audio" src="/static/images/ave.jpg"  alt="" style="width: 250px;"/>
+                                <h4>Imagen 1</h4>
+                            </td>
+                
+                            <td>
+                                <img src="/static/images/lago.jpg" alt="" style="width: 250px;"/>
+                                <h4>Imagen 2</h4>
+                            </td>
+
+                            <td>
+                                <img src="/static/images/paisaje-montanas.jpg"  alt="" style="width: 250px;"/>
+                                <h4>Imagen 3</h4>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+
+                            <td>
+                                <img src="/static/images/paisaje-nubes.jpg"  alt="" style="width: 250px;">
+                                <h4>Imagen 4</h4>
+                            </td>
+                            
+                            <td>
+                                <img  src="/static/images/paisaje.jpg"  alt="" style="width: 250px;">
+                                <h4>Imagen 5</h4>
+                            </td>
+
+                            <td>
+                                <img  src="/static/images/rombo.jpg"  alt="" style="width: 250px;">
+                                <h4>Imagen 6</h4>
+                            </td>
+                        </tr>
+                    </tbody> 
+
+                </table>
+            </div>
+            
+            <div class="container4">
+                <form action="/predecir/" method="POST">
+                    
+                    <div>
+                        <h5>Seleccione imagen: </h5>
+                            <select name="imagen" id="imagen">
+                                <option value="Imagen1" selected>Imagen 1</option>
+                                <option value="Imagen2">Imagen 2 </option>
+                                <option value="Imagen3">Imagen 3</option>
+                                <option value="Imagen4">Imagen 4</option>
+                                <option value="Imagen5">Imagen 5</option>
+                                <option value="Imagen6">Imagen 6</option>
+                            </select>
+                    </div>
+                    
+                    <br>
+                    
+                    <div>
+                        <h5>Seleccione una mascara:</h5>
+                        <h5><input type="radio" id="mascara5" name="mascara" value="5" checked>Mascara 5X5
+                        <input type="radio" id="mascara3" name="mascara" value="3"> Mascara 3X3 </h5>
+                    </div>
+                           
+                    <h5>Seleccione la Desviación Estandar:</h5>
+                    <h5><input type="radio" id="1d" name="desviacion" value="1" checked> Sigma: 1
+                    <input type="radio" id="2d" name="desviacion" value="2">Sigma: 2
+                    <input type="radio" id="3d" name="desviacion" value="3">Sigma: 3
+                    <input type="radio" id="3d" name="desviacion" value="4">Sigma: 4</h5>
+                    {% csrf_token %}
+                    {{ form }}
+                    <input type="submit" id="butonProcesarImagen">Procesar Imagen</input>
+        
+                </form>
+            </div>
+    
+            <div class="container5">
+                {% csrf_token %}
+                <h4>Resultado</h4>
+                <h6>Numero de Bloques:  {{bloques}} </h6>
+                <h6>Numero de Hilos: {{hilos}}</h6>
+                <h6>Tiempo de Ejecución: {{tiempoFinal}}</h6>
+                <h6>Mascara Utilizada: {{kernel}}</h6>
+                <h6>Sigma Utilizada: {{sigma}}</h6>
+            </div>
+
+            <div class="container6">
+                <img  src="/static/images/resultado.png"  alt="" style="width: 250px;">
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="separador"> </div>
+        
+
+    </section>
+    
+    <div class="separador"> </div>
+
+</body>
+</html>

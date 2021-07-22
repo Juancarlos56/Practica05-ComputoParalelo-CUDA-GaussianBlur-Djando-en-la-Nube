@@ -1,0 +1,476 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    color: rgb(224, 245, 38);
+    }
+    
+    /* muestra en gris los links visitados */
+    a:visited {
+    color:rgb(177, 14, 14);
+    }
+    
+    /* muestra en rojo los links en hover */
+    a:hover {
+    color:rgb(56, 199, 0);
+    }
+    
+    /* muestra en rojo claro los links activos */
+    a:active {
+    color:rgb(243, 1, 211);
+}
+
+/* muestra en gris los links visitados */
+a:visited {
+    color:#999;
+}
+
+.logo{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: #403F3D;
+}
+
+#leftFloat{
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 8%;
+    line-height: 160px;
+    background-color: #403F3D;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    border-radius:130px;
+}
+
+
+#rightFloat{
+    width: 88%;
+    height: 118px;
+    margin-left: 10px;
+    padding: 0px 10px 0px 0px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+
+#rightFloat .posicionBoton{
+    width: 60%;
+    padding: 45px 10px 2px 20px;
+    line-height: 25px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+
+#rightFloat .posicionBoton .container1{
+    width: 100%;
+    height: 25px;
+    margin-left: 2px;
+    padding-left: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#rightFloat .posicionBoton .container1 .icon{
+    width: 3%;
+    position: absolute;
+    color: black;
+    float: left;
+  }
+
+
+  #rightFloat .posicionBoton .container1 input.botonBuscar{
+    width: 95%;
+    height: 35px;
+    background: #FFFAF2;
+    border: none;
+    font-size: 10pt;
+    color: black;
+    padding-left: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  #rightFloat .opcionesUsuairo{
+    width: 35%;
+    padding: 2px 10px 2px 20px;
+    line-height: 25px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+
+#rightFloat .opcionesUsuairo .container2{
+    width: 100%;
+    height: 80px;
+    margin-left: 2px;
+    padding-left: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: black;
+}
+
+#rightFloat .opcionesUsuairo .container2 .btnAcceder{
+    width: 15%;
+    margin-right: 50px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+#rightFloat .opcionesUsuairo .container2 .btnMensajeria{
+    width: 15%;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+
+#rightFloat .opcionesUsuairo .container2 .btnCrearCuenta{
+    width: 15%;
+    margin-left: 50px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    float: left;
+}
+
+
+/* CSS PARA LA BARRA DE MENU */
+#menu{
+    width: 97.35%;
+    height: 45px;
+    margin:  0px;
+    padding: 5px 20px 5px 20px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+
+#menu li{
+    font-size: 16px;
+    padding: 2px;
+    margin-left: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+#menu li a {
+    font-weight:600;
+    text-decoration:none;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(243, 241, 241);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+#menu li a:hover, #menu li:hover > a{
+    color: black;
+    background: #FFE4E3;
+}
+
+.separador {
+    width: 100%;
+    height: 0px;
+    background-color: white;
+    clear: both;
+}
+
+
+.fondo{
+    width: 100%;
+    
+    background-color: white;
+    text-align: center;
+    float: left;
+    background-position: center;
+    position: relative;   
+}
+
+.seccion1 {
+    width: 41.5%;
+    height: 400px;
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    float: left;
+    position:  absolute;
+}
+
+.seccion1 .presentacion {
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+}
+.seccion1 .presentacion p {
+    font-size: 30px;
+    font-family: 'Nixie One', cursive;
+}
+
+.seccionFormulario {
+    width: 41.5%;
+    height: 400px;
+    margin-top: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    float: left;
+    position:  absolute;
+}
+
+.seccionFormulario .presentacion {
+    width: 100%;
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+}
+
+.seccionFormulario .presentacion .formulario{
+    width:100%;
+    height: 600px;
+}
+
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+
+
+.seccion2{
+    width: 100%;
+    height: 800px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    background-color: white
+}
+
+.seccion2 header h1{
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seccion2 .novedades {
+    float: left;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-color: white;
+    font-size: 24px;
+    font-family: 'Aleo', serif;
+    line-height: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.seccion2 .novedades .container3 {
+    float: left;
+    width: 55%;
+    height: 600px;
+    margin: 0px;
+    background-color: white;;
+}
+
+.seccion2 .novedades .container3 .tablaNovedades {
+    float: left;
+    width: 50%;
+    height: 550px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+.seccion2 .novedades .container4 {
+    float: left;
+    width: 45%;
+    height: 285px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+form{
+	width:85%;
+    height: 285px;
+	padding: 15px 15px 15px 15px;
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Aleo', serif;
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+button{
+    width:35%;
+    height: 40px;
+    background: black;
+    margin-top: 8px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    font-family: 'Aleo', serif;
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+select{
+    
+    height: 40px;
+    background: black;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    font-family: 'Aleo', serif;
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.seccion2 .novedades .container5 {
+    float: left;
+    width: 21%;
+    height: 240px;
+    margin-top: 2.5%;
+    background-color: whitesmoke;
+    padding: 5px 5px 5px 15px;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Aleo', serif;
+    line-height: 35px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    
+    
+}
+
+.seccion2 .novedades .container6 {
+    
+
+    float: left;
+    width: 20%;
+    height: 280px;
+    margin-top: 2.5%;
+    
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 280px;
+    margin-top: 0px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    color: black;
+    background-color: black;
+}
+
+.footer .container6{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    color: white;
+    
+}
+
+.footer .container6 .btnFacebook{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .container6 .btnInstagram {
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .container6 .estiloPiePagina {
+    width: 100%;
+    height: 270px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+   
+}
+
+.footer  #footerlogo{
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #403F3D;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:130px;
+}
