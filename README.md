@@ -125,4 +125,7 @@ sudo docker stop "identificador proceso"
 ![](/Resultados/predecir-imagen.jpg)
 
 ### 5. Comparacion de Imagenes
-
+##### Imagen Original
+![](/Resultados/imagenOriginalSinFiltroRecorte.png)
+##### Imagen aplicando el filtro de Gauss
+![](/Resultados/resultadoGaussrecorte.png)
